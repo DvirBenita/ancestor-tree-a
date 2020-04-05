@@ -1,0 +1,15 @@
+{
+    "files.associations": {
+        "ostream": "cpp",
+        "exception": "cpp",
+        "iostream": "cpp",
+        "bitset": "cpp",
+        "cstdlib": "cpp",
+        "algorithm": "cpp",
+        "functional": "cpp",
+        "regex": "cpp",
+        "chrono": "cpp",
+        "optional": "cpp",
+        "new": "cpp"
+    }
+}
