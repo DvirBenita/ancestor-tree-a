@@ -418,5 +418,14 @@ father = "dvir29";
  T.addFather("dvir28",father); 
 CHECK(T.find("great-great-great-great-great-great-great-great-great-great-great-great-great-great-great-great-great-great-great-great-great-great-great-great-great-great-great-grandfather") == string("dvir29")); 
 
+   
+  father = "dvir30"; 
+ T.addFather("dvir29",father); 
+CHECK(T.find("great-great-great-great-great-great-great-great-great-great-great-great-great-great-great-great-great-great-great-great-great-great-great-great-great-great-great-great-grandfather") == string("dvir29")); 
+
+     father = "dvir31"; 
+ T.addFather("dvir30",father); 
+CHECK(T.find("great-great-great-great-great-great-great-great-great-great-great-great-great-great-great-great-great-great-great-great-great-great-great-great-great-great-great-great-great-grandfather") == string("dvir29")); 
+
 
 }
