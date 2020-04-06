@@ -1,0 +1,118 @@
+Tree T ("dvir0"); 
+string father=""; 
+father = "dvir1"; 
+ T.addFather("dvir0",father); 
+CHECK(T.find("father") == string("dvir1")); 
+
+father = "dvir2"; 
+ T.addFather("dvir1",father); 
+CHECK(T.find("grandfather") == string("dvir2")); 
+
+father = "dvir3"; 
+ T.addFather("dvir2",father); 
+CHECK(T.find("great-grandfather") == string("dvir3")); 
+
+father = "dvir4"; 
+ T.addFather("dvir3",father); 
+CHECK(T.find("great-great-grandfather") == string("dvir4")); 
+
+father = "dvir5"; 
+ T.addFather("dvir4",father); 
+CHECK(T.find("great-great-great-grandfather") == string("dvir5")); 
+
+father = "dvir6"; 
+ T.addFather("dvir5",father); 
+CHECK(T.find("great-great-great-great-grandfather") == string("dvir6")); 
+
+father = "dvir7"; 
+ T.addFather("dvir6",father); 
+CHECK(T.find("great-great-great-great-great-grandfather") == string("dvir7")); 
+
+father = "dvir8"; 
+ T.addFather("dvir7",father); 
+CHECK(T.find("great-great-great-great-great-great-grandfather") == string("dvir8")); 
+
+father = "dvir9"; 
+ T.addFather("dvir8",father); 
+CHECK(T.find("great-great-great-great-great-great-great-grandfather") == string("dvir9")); 
+
+father = "dvir10"; 
+ T.addFather("dvir9",father); 
+CHECK(T.find("great-great-great-great-great-great-great-great-grandfather") == string("dvir10")); 
+
+father = "dvir11"; 
+ T.addFather("dvir10",father); 
+CHECK(T.find("great-great-great-great-great-great-great-great-great-grandfather") == string("dvir11")); 
+
+father = "dvir12"; 
+ T.addFather("dvir11",father); 
+CHECK(T.find("great-great-great-great-great-great-great-great-great-great-grandfather") == string("dvir12")); 
+
+father = "dvir13"; 
+ T.addFather("dvir12",father); 
+CHECK(T.find("great-great-great-great-great-great-great-great-great-great-great-grandfather") == string("dvir13")); 
+
+father = "dvir14"; 
+ T.addFather("dvir13",father); 
+CHECK(T.find("great-great-great-great-great-great-great-great-great-great-great-great-grandfather") == string("dvir14")); 
+
+father = "dvir15"; 
+ T.addFather("dvir14",father); 
+CHECK(T.find("great-great-great-great-great-great-great-great-great-great-great-great-great-grandfather") == string("dvir15")); 
+
+father = "dvir16"; 
+ T.addFather("dvir15",father); 
+CHECK(T.find("great-great-great-great-great-great-great-great-great-great-great-great-great-great-grandfather") == string("dvir16")); 
+
+father = "dvir17"; 
+ T.addFather("dvir16",father); 
+CHECK(T.find("great-great-great-great-great-great-great-great-great-great-great-great-great-great-great-grandfather") == string("dvir17")); 
+
+father = "dvir18"; 
+ T.addFather("dvir17",father); 
+CHECK(T.find("great-great-great-great-great-great-great-great-great-great-great-great-great-great-great-great-grandfather") == string("dvir18")); 
+
+father = "dvir19"; 
+ T.addFather("dvir18",father); 
+CHECK(T.find("great-great-great-great-great-great-great-great-great-great-great-great-great-great-great-great-great-grandfather") == string("dvir19")); 
+
+father = "dvir20"; 
+ T.addFather("dvir19",father); 
+CHECK(T.find("great-great-great-great-great-great-great-great-great-great-great-great-great-great-great-great-great-great-grandfather") == string("dvir20")); 
+
+father = "dvir21"; 
+ T.addFather("dvir20",father); 
+CHECK(T.find("great-great-great-great-great-great-great-great-great-great-great-great-great-great-great-great-great-great-great-grandfather") == string("dvir21")); 
+
+father = "dvir22"; 
+ T.addFather("dvir21",father); 
+CHECK(T.find("great-great-great-great-great-great-great-great-great-great-great-great-great-great-great-great-great-great-great-great-grandfather") == string("dvir22")); 
+
+father = "dvir23"; 
+ T.addFather("dvir22",father); 
+CHECK(T.find("great-great-great-great-great-great-great-great-great-great-great-great-great-great-great-great-great-great-great-great-great-grandfather") == string("dvir23")); 
+
+father = "dvir24"; 
+ T.addFather("dvir23",father); 
+CHECK(T.find("great-great-great-great-great-great-great-great-great-great-great-great-great-great-great-great-great-great-great-great-great-great-grandfather") == string("dvir24")); 
+
+father = "dvir25"; 
+ T.addFather("dvir24",father); 
+CHECK(T.find("great-great-great-great-great-great-great-great-great-great-great-great-great-great-great-great-great-great-great-great-great-great-great-grandfather") == string("dvir25")); 
+
+father = "dvir26"; 
+ T.addFather("dvir25",father); 
+CHECK(T.find("great-great-great-great-great-great-great-great-great-great-great-great-great-great-great-great-great-great-great-great-great-great-great-great-grandfather") == string("dvir26")); 
+
+father = "dvir27"; 
+ T.addFather("dvir26",father); 
+CHECK(T.find("great-great-great-great-great-great-great-great-great-great-great-great-great-great-great-great-great-great-great-great-great-great-great-great-great-grandfather") == string("dvir27")); 
+
+father = "dvir28"; 
+ T.addFather("dvir27",father); 
+CHECK(T.find("great-great-great-great-great-great-great-great-great-great-great-great-great-great-great-great-great-great-great-great-great-great-great-great-great-great-grandfather") == string("dvir28")); 
+
+father = "dvir29"; 
+ T.addFather("dvir28",father); 
+CHECK(T.find("great-great-great-great-great-great-great-great-great-great-great-great-great-great-great-great-great-great-great-great-great-great-great-great-great-great-great-grandfather") == string("dvir29")); 
+

@@ -4,7 +4,7 @@ using namespace doctest;
 
 const int MIN_TESTS = 100;
 
-struct ReporterCounter: public ConsoleReporter {
+struct ReporterCounter: public ConsoleReporter {    
     ReporterCounter(const ContextOptions& input_options)
             : ConsoleReporter(input_options) {}
 

@@ -1,0 +1,138 @@
+Tree T ("dvir0"); 
+string father= ""; 
+father = "dvir1"; 
+ T.addFather("dvir0",father); 
+CHECK(T.relation(father) == string("father")); 
+
+father = "dvir2"; 
+ T.addFather("dvir1",father); 
+CHECK(T.relation(father) == string("grandfather")); 
+
+father = "dvir3"; 
+ T.addFather("dvir2",father); 
+CHECK(T.relation(father) == string("great-grandfather")); 
+
+father = "dvir4"; 
+ T.addFather("dvir3",father); 
+CHECK(T.relation(father) == string("great-great-grandfather")); 
+
+father = "dvir5"; 
+ T.addFather("dvir4",father); 
+CHECK(T.relation(father) == string("great-great-great-grandfather")); 
+
+father = "dvir6"; 
+ T.addFather("dvir5",father); 
+CHECK(T.relation(father) == string("great-great-great-great-grandfather")); 
+
+father = "dvir7"; 
+ T.addFather("dvir6",father); 
+CHECK(T.relation(father) == string("great-great-great-great-great-grandfather")); 
+
+father = "dvir8"; 
+ T.addFather("dvir7",father); 
+CHECK(T.relation(father) == string("great-great-great-great-great-great-grandfather")); 
+
+father = "dvir9"; 
+ T.addFather("dvir8",father); 
+CHECK(T.relation(father) == string("great-great-great-great-great-great-great-grandfather")); 
+
+father = "dvir10"; 
+ T.addFather("dvir9",father); 
+CHECK(T.relation(father) == string("great-great-great-great-great-great-great-great-grandfather")); 
+
+father = "dvir11"; 
+ T.addFather("dvir10",father); 
+CHECK(T.relation(father) == string("great-great-great-great-great-great-great-great-great-grandfather")); 
+
+father = "dvir12"; 
+ T.addFather("dvir11",father); 
+CHECK(T.relation(father) == string("great-great-great-great-great-great-great-great-great-great-grandfather")); 
+
+father = "dvir13"; 
+ T.addFather("dvir12",father); 
+CHECK(T.relation(father) == string("great-great-great-great-great-great-great-great-great-great-great-grandfather")); 
+
+father = "dvir14"; 
+ T.addFather("dvir13",father); 
+CHECK(T.relation(father) == string("great-great-great-great-great-great-great-great-great-great-great-great-grandfather")); 
+
+father = "dvir15"; 
+ T.addFather("dvir14",father); 
+CHECK(T.relation(father) == string("great-great-great-great-great-great-great-great-great-great-great-great-great-grandfather")); 
+
+father = "dvir16"; 
+ T.addFather("dvir15",father); 
+CHECK(T.relation(father) == string("great-great-great-great-great-great-great-great-great-great-great-great-great-great-grandfather")); 
+
+father = "dvir17"; 
+ T.addFather("dvir16",father); 
+CHECK(T.relation(father) == string("great-great-great-great-great-great-great-great-great-great-great-great-great-great-great-grandfather")); 
+
+father = "dvir18"; 
+ T.addFather("dvir17",father); 
+CHECK(T.relation(father) == string("great-great-great-great-great-great-great-great-great-great-great-great-great-great-great-great-grandfather")); 
+
+father = "dvir19"; 
+ T.addFather("dvir18",father); 
+CHECK(T.relation(father) == string("great-great-great-great-great-great-great-great-great-great-great-great-great-great-great-great-great-grandfather")); 
+
+father = "dvir20"; 
+ T.addFather("dvir19",father); 
+CHECK(T.relation(father) == string("great-great-great-great-great-great-great-great-great-great-great-great-great-great-great-great-great-great-grandfather")); 
+
+father = "dvir21"; 
+ T.addFather("dvir20",father); 
+CHECK(T.relation(father) == string("great-great-great-great-great-great-great-great-great-great-great-great-great-great-great-great-great-great-great-grandfather")); 
+
+father = "dvir22"; 
+ T.addFather("dvir21",father); 
+CHECK(T.relation(father) == string("great-great-great-great-great-great-great-great-great-great-great-great-great-great-great-great-great-great-great-great-grandfather")); 
+
+father = "dvir23"; 
+ T.addFather("dvir22",father); 
+CHECK(T.relation(father) == string("great-great-great-great-great-great-great-great-great-great-great-great-great-great-great-great-great-great-great-great-great-grandfather")); 
+
+father = "dvir24"; 
+ T.addFather("dvir23",father); 
+CHECK(T.relation(father) == string("great-great-great-great-great-great-great-great-great-great-great-great-great-great-great-great-great-great-great-great-great-great-grandfather")); 
+
+father = "dvir25"; 
+ T.addFather("dvir24",father); 
+CHECK(T.relation(father) == string("great-great-great-great-great-great-great-great-great-great-great-great-great-great-great-great-great-great-great-great-great-great-great-grandfather")); 
+
+father = "dvir26"; 
+ T.addFather("dvir25",father); 
+CHECK(T.relation(father) == string("great-great-great-great-great-great-great-great-great-great-great-great-great-great-great-great-great-great-great-great-great-great-great-great-grandfather")); 
+
+father = "dvir27"; 
+ T.addFather("dvir26",father); 
+CHECK(T.relation(father) == string("great-great-great-great-great-great-great-great-great-great-great-great-great-great-great-great-great-great-great-great-great-great-great-great-great-grandfather")); 
+
+father = "dvir28"; 
+ T.addFather("dvir27",father); 
+CHECK(T.relation(father) == string("great-great-great-great-great-great-great-great-great-great-great-great-great-great-great-great-great-great-great-great-great-great-great-great-great-great-grandfather")); 
+
+father = "dvir29"; 
+ T.addFather("dvir28",father); 
+CHECK(T.relation(father) == string("great-great-great-great-great-great-great-great-great-great-great-great-great-great-great-great-great-great-great-great-great-great-great-great-great-great-great-grandfather")); 
+
+father = "dvir30"; 
+ T.addFather("dvir29",father); 
+CHECK(T.relation(father) == string("great-great-great-great-great-great-great-great-great-great-great-great-great-great-great-great-great-great-great-great-great-great-great-great-great-great-great-great-grandfather")); 
+
+father = "dvir31"; 
+ T.addFather("dvir30",father); 
+CHECK(T.relation(father) == string("great-great-great-great-great-great-great-great-great-great-great-great-great-great-great-great-great-great-great-great-great-great-great-great-great-great-great-great-great-grandfather")); 
+
+father = "dvir32"; 
+ T.addFather("dvir31",father); 
+CHECK(T.relation(father) == string("great-great-great-great-great-great-great-great-great-great-great-great-great-great-great-great-great-great-great-great-great-great-great-great-great-great-great-great-great-great-grandfather")); 
+
+father = "dvir33"; 
+ T.addFather("dvir32",father); 
+CHECK(T.relation(father) == string("great-great-great-great-great-great-great-great-great-great-great-great-great-great-great-great-great-great-great-great-great-great-great-great-great-great-great-great-great-great-great-grandfather")); 
+
+father = "dvir34"; 
+ T.addFather("dvir33",father); 
+CHECK(T.relation(father) == string("great-great-great-great-great-great-great-great-great-great-great-great-great-great-great-great-great-great-great-great-great-great-great-great-great-great-great-great-great-great-great-great-grandfather")); 
+
