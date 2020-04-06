@@ -142,6 +142,16 @@ father = "dvir34";
  T.addFather("dvir33",father); 
 CHECK(T.relation(father) == string("great-great-great-great-great-great-great-great-great-great-great-great-great-great-great-great-great-great-great-great-great-great-great-great-great-great-great-great-great-great-great-great-grandfather")); 
 
+   
+father = "dvir35"; 
+ T.addFather("dvir34",father); 
+CHECK(T.relation(father) == string("great-great-great-great-great-great-great-great-great-great-great-great-great-great-great-great-great-great-great-great-great-great-great-great-great-great-great-great-great-great-great-great-great-grandfather")); 
+
+   
+father = "dvir36"; 
+ T.addFather("dvir35",father); 
+CHECK(T.relation(father) == string("great-great-great-great-great-great-great-great-great-great-great-great-great-great-great-great-great-great-great-great-great-great-great-great-great-great-great-great-great-great-great-great-great-great-grandfather")); 
+
 
 }
 
